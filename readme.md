@@ -1,6 +1,5 @@
 # Errors
 
-[![Build Status](https://travis-ci.org/LaravelCollective/errors.svg)](https://travis-ci.org/LaravelCollective/errors)
 [![Total Downloads](https://poser.pugx.org/LaravelCollective/errors/downloads)](https://packagist.org/packages/laravelcollective/errors)
 [![Latest Stable Version](https://poser.pugx.org/LaravelCollective/errors/v/stable.svg)](https://packagist.org/packages/laravelcollective/errors)
 [![Latest Unstable Version](https://poser.pugx.org/LaravelCollective/errors/v/unstable.svg)](https://packagist.org/packages/laravelcollective/errors)
