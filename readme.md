@@ -1,4 +1,4 @@
-# Errors
+![LaravelCollective Errors](LaravelCollectiveErrors-banner.png)
 
 [![Total Downloads](https://poser.pugx.org/LaravelCollective/errors/downloads)](https://packagist.org/packages/laravelcollective/errors)
 [![Latest Stable Version](https://poser.pugx.org/LaravelCollective/errors/v/stable.svg)](https://packagist.org/packages/laravelcollective/errors)
