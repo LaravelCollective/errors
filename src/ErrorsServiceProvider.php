@@ -21,7 +21,7 @@ class ErrorsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__.'/publish/errors' => base_path('views/errors'),
+            __DIR__.'/publish/errors' => base_path('resources/views/errors'),
             __DIR__.'/publish/svg' => base_path('public/svg'),
         ]);
     }
