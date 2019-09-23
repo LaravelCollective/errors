@@ -3,9 +3,8 @@
 namespace Collective\Errors;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Contracts\Support\DeferrableProvider;
 
-class ErrorsServiceProvider extends ServiceProvider implements DeferrableProvider
+class ErrorsServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
@@ -17,6 +16,6 @@ class ErrorsServiceProvider extends ServiceProvider implements DeferrableProvide
         $this->publishes([
             __DIR__.'/publish/errors' => resource_path('views/errors'),
             __DIR__.'/publish/svg' => public_path('svg'),
-        ]);
+        ], 'laravel-collective-errors');
     }
 }
