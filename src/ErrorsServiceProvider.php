@@ -3,22 +3,16 @@
 namespace Collective\Errors;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Contracts\Support\DeferrableProvider;
 
-class ErrorsServiceProvider extends ServiceProvider
+class ErrorsServiceProvider extends ServiceProvider implements DeferrableProvider
 {
-    /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = true;
-
     /**
      * Register the service provider.
      *
      * @return void
      */
-    public function register()
+    public function boot()
     {
         $this->publishes([
             __DIR__.'/publish/errors' => resource_path('views/errors'),
