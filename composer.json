@@ -1,5 +1,5 @@
 {
-    "name": "jhnbrn90/laravel-errors",
+    "name": "laravelcollective/errors",
     "description": "Error pages for the Laravel Framework",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
