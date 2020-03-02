@@ -489,7 +489,7 @@
 
             <div class="relative pb-full md:flex md:pb-0 md:min-h-screen w-full md:w-1/2">
                 <div class="vh-100 absolute pin bg-laravel">
-                    <img class="logo-image" src="/svg/laravel-brand.svg" alt="">
+                    <img class="logo-image" src="/svg/laravel.svg" alt="laravel brand">
                 </div>
             </div>
         </div>
