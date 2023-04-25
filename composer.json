@@ -33,5 +33,6 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "abandoned": true
 }
